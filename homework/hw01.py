@@ -70,7 +70,8 @@ if __name__ == '__main__':
     else:
         try:
             sides = list(map(int, sys.argv[1:]))
-            assert (all(side > 0 for side in sides))
+            if not all(side > 0 for side in sides):
+                raise Exception('Negative side length given.')
             result = classify_triangle(*sides)
             print(f'{"Not a" if result == "NotATriangle" else result} triangle')
         except:
