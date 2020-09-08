@@ -30,14 +30,14 @@ class TestTriangles(unittest.TestCase):
                              f'{triangle} is a Scalene triangle')
 
     def testIscoscelesTriangle(self):
-        for triangle in list(permutations([1, 1, 2])):
+        for triangle in list(permutations([2, 2, 3])):
             triangle = list(triangle)
             self.assertEqual(classifyTriangle(*triangle), 'Iscosceles',
                              f'{triangle} is an Iscoseles triangle')
 
     def testEquilateralTriangles(self):
         self.assertEqual(classifyTriangle(1, 1, 1),
-                         'Equilateral', '1,1,1 is an Equilaterial triangle')
+                         'Equilateral', '[1, 1, 1] is an Equilaterial triangle')
 
     def testNotATriangle(self):
         for triangle in list(permutations([1, 1, 100])):
