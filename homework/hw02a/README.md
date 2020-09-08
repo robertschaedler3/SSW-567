@@ -1,5 +1,7 @@
 # Report
 
+[![Build Status](https://travis-ci.com/robertschaedler3/SSW-567.svg?token=9mQaGWNeSq5P226vHmZF&branch=master)](https://travis-ci.com/robertschaedler3/SSW-567)
+
 **Description:**
 
 Sometimes you will be given a program that someone else has written, and you will be asked to fix, update and enhance that program. In this assignment you will start with an existing implementation of the classify triangle program that will be given to you. You will also be given a starter test program that tests the classify triangle program, but those tests are not complete.  
