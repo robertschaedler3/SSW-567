@@ -9,7 +9,7 @@ The primary goal of this file is to demonstrate a simple unittest implementation
 import unittest
 from itertools import permutations
 
-from hw02 import classifyTriangle
+from triangle import classifyTriangle
 
 # This code implements the unit test functionality
 # https://docs.python.org/3/library/unittest.html has a nice description of the framework
