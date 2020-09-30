@@ -11,10 +11,10 @@ class TestHw4(unittest.TestCase):
 
     def test_get_repos(self):
         repos = get_repos(OWNER)
-        self.assertIsInstance(list, repos)
+        self.assertIsInstance(repos, list)
         for item in repos:
-            self.assertIsInstance(str, get_repos)
+            self.assertIsInstance(get_repos, str)
 
     def test_get_commits(self):
         commits = get_commits(OWNER, REPO)
-        self.assertIsInstance(int, commits)
+        self.assertIsInstance(commits, int)
