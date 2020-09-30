@@ -2,7 +2,11 @@ language: python
 python:
   - "3.8"
 
+install:
+  - pip install requests
+
 # command to run tests
 script:
-  - cd homework/hw02a
-  - python -m unittest TestTriangle
+  - cd homework
+  - python -m unittest hw02a/TestTriangle
+  - python -m unittest hw04_test
