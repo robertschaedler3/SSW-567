@@ -1,4 +1,4 @@
-# Report
+# HW 02a Report
 
 [![Build Status](https://travis-ci.com/robertschaedler3/SSW-567.svg?token=9mQaGWNeSq5P226vHmZF&branch=master)](https://travis-ci.com/robertschaedler3/SSW-567)
 
