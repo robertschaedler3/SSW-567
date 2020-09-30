@@ -4,12 +4,12 @@
 
 Sometimes you will be given a program that someone else has written, and you will be asked to fix, update and enhance that program. In this assignment you will start with an existing implementation of the classify triangle program that will be given to you. You will also be given a starter test program that tests the classify triangle program, but those tests are not complete.  
 
-These are the two files: `Triangle.py` and `TestTriangle.py`.
+These are the two files: `triangle.py` and `test_triangle.py`.
 
 
-`Triangle.py` is a starter implementation of the triangle classification program.  
+`triangle.py` is a starter implementation of the triangle classification program.  
 
-`TestTriangle.py`  contains a starter set of unittest test cases to test the `classifyTriangle()` function in the file `Triangle.py` file.  
+`test_triangle.py`  contains a starter set of unittest test cases to test the `classifyTriangle()` function in the file `triangle.py` file.  
 
 In order to determine if the program is correctly implemented, you will need to update the set of test cases in the test program. You will need to update the test program until you feel that your tests adequately test all of the conditions. Then you should run the complete set of tests against the original triangle program to see how correct the triangle program is. Capture and then report on those results in a formal test report described below. For this first part you should not make any changes to the classify triangle program. You should only change the test program.
 
@@ -17,9 +17,9 @@ Based on the results of your initial tests, you will then update the classify tr
 
 > Note that you should NOT simply replace the logic with your logic from Assignment 1. Test teams typically don't have the luxury of rewriting code from scratch and instead must fix what's delivered to the test team.   
 
-`Triangle.py` contains an implementation of the `classifyTriangle()` function with a few bugs.  
+`triangle.py` contains an implementation of the `classifyTriangle()` function with a few bugs.  
 
- `TestTriangle.py` contains the initial set of test cases
+ `test_triangle.py` contains the initial set of test cases
 
 ## Results 
 
