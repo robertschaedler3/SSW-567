@@ -11,7 +11,7 @@ def get_repos(owner):
         res = requests.get(f'{GITHUB_API}/users/{owner}/repos')
         repos = [repo['name'] for repo in res.json()]
     except Exception as e:
-        print(e)
+        pass
     return repos
 
 
@@ -21,7 +21,7 @@ def get_commits(owner, repo):
         res = requests.get(f'{GITHUB_API}/repos/{owner}/{repo}/stats/contributors')
         commits = sum([contrib['total'] for contrib in res.json()])
     except Exception as e:
-        print(e)
+        pass
     return commits
 
 
