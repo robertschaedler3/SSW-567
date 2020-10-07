@@ -9,3 +9,4 @@ install:
 script:
   - cd homework
   - coverage run --source=./test -m unittest discover -s test
+  - coverage report -m
