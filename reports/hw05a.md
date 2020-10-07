@@ -1,5 +1,7 @@
 # HW 05a Report: Mock the Github API
 
+[![Build Status](https://travis-ci.com/robertschaedler3/SSW-567.svg?token=9mQaGWNeSq5P226vHmZF&branch=hw05a-mocking)](https://travis-ci.com/robertschaedler3/SSW-567)
+
 ## Summary
 
 In last week's assignment HW 04a you may have encountered problems when testing your code in Travis-CI given that your tests were highly dependent on the GitHub APIs. Those APIs would start to return errors if you exceeded a threshold on use, or those APIs would return different results if you make a change to your repos. Remember that one of the key concepts behind unit-tests was that if you don't change your program then the unit-tests should behave consistently. Unfortunately that is not the case so far. 
