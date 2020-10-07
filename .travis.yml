@@ -3,9 +3,9 @@ python:
   - "3.8"
 
 install:
-  - pip install requests
+  - pip install -r homework/requirements.txt
 
 # command to run tests
 script:
   - cd homework
-  - python -m unittest
+  - coverage run --source=./test -m unittest discover -s test
