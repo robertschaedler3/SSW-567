@@ -45,6 +45,19 @@ class TestTriangles(unittest.TestCase):
             self.assertEqual(classifyTriangle(*triangle),
                              'NotATriangle', f'{triangle} is not a triangle')
 
+    def testInvalidInput(self):
+        for triangle in list(permutations([0, 1, 1])):
+            triangle = list(triangle)
+            self.assertEqual(classifyTriangle(*triangle),
+                             'InvalidInput', f'{triangle} is an invalid input')
+
+        for triangle in list(permutations([201, 1, 1])):
+            triangle = list(triangle)
+            self.assertEqual(classifyTriangle(*triangle),
+                             'InvalidInput', f'{triangle} is an invalid input')
+
+        self.assertEqual(classifyTriangle('a', 'b', 'c'), 'InvalidInput')
+
 
 if __name__ == '__main__':
     print('Running unit tests')
