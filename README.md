@@ -7,3 +7,4 @@
 ## Reports
 - [HW02: Triangle](/reports/hw02a.md)
 - [HW04: Git REST API](/reports/hw04.md)
+- [HW05: Static Code Analysis](/reports/hw05.md)
